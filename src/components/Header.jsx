@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className='flex justify-between items-center p-4 bg-white shadow-lg sm:shadow-xl px-2 sm:px-20 py-4'>
       <div className='flex justify-between items-center gap-2' >
-        <img src={logo} alt="logo" className='w-7 h-7 object-cover'  />
+        <img src={logo} alt="logo" className='w-7 h-7 object-cover'/>
         <div>
         <h1 className='text-lg font-bold text-violet-600 hidden  sm:block'>HERO.IO</h1>
         </div>
