@@ -4,11 +4,12 @@ import AppPage from "./pages/AppPage.jsx"
 import InstallationPage from "./pages/installationPage.jsx"
 import AppDetailPage from "./pages/AppDetailPage.jsx"
 import ErrorPage from "./pages/ErrorPage.jsx"
+import Layout from "./components/Layout.jsx"
 
 function App() {
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route to='/'>
+    <Route to='/' element={<Layout/>}>
       <Route index element={<Navigate to="/home"/>}/>
       <Route path='home' element={<HomePage/>}/>
       <Route path='apps' element={<AppPage/>}/>

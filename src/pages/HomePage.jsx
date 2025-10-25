@@ -1,9 +1,9 @@
 import React from 'react'
-
+import Header from '../components/Header.jsx'
 const HomePage = () => {
   return (
     <div>
-      i am the home page 
+     
     </div>
   )
 }
