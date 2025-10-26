@@ -8,7 +8,7 @@ import { FaInstagram } from 'react-icons/fa'
 const Footer = () => {
   return (
     < div className='bg-black'>
-    <div className='bg-black flex justify-between items-center gap-4 py-3 mt-10 px-2 sm:px-20'>
+    <div className='bg-black flex justify-between items-center gap-4 py-3 px-2 sm:px-20'>
         <div className='flex justify-center items-center py-3 text-white gap-2'>
             <img className='w-7  mx-auto' src={logo} alt="logo" />
             <h2 className='text-center text-sm font-bold'>HERO.IO</h2>

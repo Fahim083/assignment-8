@@ -6,7 +6,7 @@ const Layout = () => {
   return (
     <div>
         <Header/>
-        <div className='bg-gray-200 px-2 sm:px-20'>
+        <div className='bg-gray-50'>
 
         <Outlet/>
         </div>
