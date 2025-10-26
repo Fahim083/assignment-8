@@ -8,13 +8,13 @@ const AppPage = () => {
     <div>
       <div className='px-2 sm:px-20 py-5 sm:py-8 text-center'>
       <h1 className='text-3xl sm:text-5xl font-bold pb-2  sm:pb-4'>Our All Applications</h1>
-      <p className='text-gray-400'>Explore All Apps on the Market developed by us. We code for Millions</p>
-      <div className='flex justify-between items-center  '>
+      <p className='text-gray-400 pb-5'>Explore All Apps on the Market developed by us. We code for Millions</p>
+      <div className='flex flex-col-reverse sm:flex-row justify-between items-center gap-2  '>
         <p className='text-xl font-semibold'>{count} Apps Found</p>
         <div className='relative '>
         <input type="text"
         placeholder='Search Apps...'
-        className='border border-gray-400 py-2 pl-9 rounded-lg'
+        className='border border-gray-400 py-2 pl-9 rounded-lg w-72 focus:outline-violet-500'
         />
         <CiSearch className='text-gray-400 absolute left-2 top-3 text-xl'/>
         </div>

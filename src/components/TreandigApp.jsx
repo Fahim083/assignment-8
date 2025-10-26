@@ -3,7 +3,7 @@ import AppCard from './AppCard.jsx'
 import { Link } from 'react-router-dom'
 const TreandigApp = () => {
   return (
-    <div className='px-2 sm:px-20 py-10 sm:py-16 text-center'>
+    <div className='px-2 sm:px-20 py-6 sm:py-12 text-center'>
       <h1 className='text-3xl sm:text-5xl font-bold pb-2  sm:pb-4'>Trending Apps</h1>
       <p className='text-gray-400'>Explore All Trending Apps on the Market developed by us</p>
       <div className="app-cards grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 py-3 sm:py-6">
