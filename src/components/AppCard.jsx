@@ -2,9 +2,11 @@ import React from 'react'
 import rating from '../assets/icon-ratings.png'
 import download from '../assets/icon-downloads.png'
 import logo from '../assets/logo.png'
+import { Link } from 'react-router-dom'
 
 const AppCard = () => {
   return (
+      <Link to="/installation">
     <div className='h-96 p-4 bg-white rounded-lg shadow-md flex flex-col justify-between gap-3'>
       <img src={logo}alt="app logo" className='rounded-lg border h-80 object-cover'/>
       <h3 className='text-start text-lg font-semibold line-clamp-1'>App name</h3>
@@ -19,6 +21,7 @@ const AppCard = () => {
         </div>
       </div>
     </div>
+</Link>
   )
 }
 
