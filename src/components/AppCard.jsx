@@ -8,7 +8,7 @@ const AppCard = ({app}) => {
   return (
       <Link to={`/apps/${app?.id}`}>
     <div className='h-96 p-4 bg-white rounded-lg shadow-md flex flex-col justify-between gap-3'>
-      <img src={app?.image}alt="app logo" className='rounded-lg border h-80 object-cover'/>
+      <img src={app?.image}alt="app logo" className='rounded-lg h-80 object-cover'/>
       <h3 className='text-start text-lg font-semibold line-clamp-1'>{app?.title}</h3>
        <div className='flex justify-between items-center'>
          <div className='flex gap-3 items-center bg-green-100 px-2 py-1 rounded-md text-green-600 text-sm font-medium'>

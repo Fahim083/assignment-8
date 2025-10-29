@@ -9,9 +9,9 @@ const TreandigApp = () => {
       .then(response => response.json())
       .then(data => {
         // Handle the fetched data
-        console.log(data.slice(0,8));
+        // console.log(data.slice(0,8));
         setapps(data.slice(0,8));
-        console.log(apps);
+        // console.log(apps);
 
       })
       .catch(error => {
