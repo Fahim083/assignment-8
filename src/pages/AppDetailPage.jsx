@@ -6,6 +6,7 @@ import download from "../assets/icon-downloads.png";
 import ratng from "../assets/icon-ratings.png";
 import review from "../assets/icon-review.png";
 import ReviewChart from "../components/ReviewChart.jsx";
+import AppErrorPage from "./AppErrorPage.jsx";
 const AppDetailPage = () => {
   const { id } = useParams(); 
   const [app, setApp] = useState(null);
@@ -20,7 +21,6 @@ const AppDetailPage = () => {
         if (selectedApp) {
           setApp(selectedApp);
 
-      
           const installedApps = JSON.parse(localStorage.getItem("installedApps")) || [];
           if (installedApps.includes(selectedApp.id)) {
             setInstalled(true);
@@ -44,7 +44,7 @@ const AppDetailPage = () => {
     toast.success(`${app.title} installed successfully!`);
   };
 
-  if (!app) return <p className="text-center py-10">App not found</p>;
+  if (!app) return <AppErrorPage />;
 
   return (
     <div className="p-2 sm:p-20">
