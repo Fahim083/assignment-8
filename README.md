@@ -125,7 +125,7 @@ Check out the **live version** of the project here:
 
 ---
 
-### 🚀 Challenge / Advanced Features
+### 🚀  Advanced Features
 
 #### LocalStorage Features
 
